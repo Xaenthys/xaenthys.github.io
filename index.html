@@ -76,12 +76,14 @@
             width: 72px;
             height: 72px;
             border-radius: 16px;
-            background: linear-gradient(135deg, #4a6741, #6b8f5e);
             flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.8rem;
+            overflow: hidden;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .app-info {
@@ -159,7 +161,7 @@
 
         <section class="apps">
             <div class="app-card">
-                <div class="app-icon">🌱</div>
+                <div class="app-icon"><img src="cultivationtimer/icon.png" alt="CultivationTimer app icon"></div>
                 <div class="app-info">
                     <h2>CultivationTimer</h2>
                     <p class="tagline">Track your cultivation practice sessions.</p>
