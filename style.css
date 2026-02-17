@@ -1,0 +1,109 @@
+:root {
+    --bg: #0f0f0f;
+    --surface: #1a1a1a;
+    --border: #2a2a2a;
+    --text: #e8e8e8;
+    --text-muted: #888;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+a { color: var(--text-muted); text-decoration: none; }
+a:hover { color: var(--text); }
+
+/* Layout */
+.container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Navigation */
+nav {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+}
+
+/* Typography */
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 32px 0 12px;
+}
+
+p {
+    margin-bottom: 16px;
+    color: #ccc;
+}
+
+ul, ol {
+    margin: 0 0 16px 24px;
+    color: #ccc;
+}
+
+li { margin-bottom: 6px; }
+
+.meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 0.9rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    color: #ccc;
+}
+
+th {
+    color: var(--text);
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+}
+
+/* TODO markers (for unpublished placeholders) */
+.todo-marker {
+    background: #2a2000;
+    border: 1px solid #554400;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 12px 0 20px;
+    font-size: 0.9rem;
+    color: #ddaa00;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    margin-top: 64px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
