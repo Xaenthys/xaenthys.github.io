@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CultivationTimer Support - Help and frequently asked questions.">
+    <title>Support - CultivationTimer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-blue: #0a0e27;
+            --dark-purple: #1a1435;
+            --medium-purple: #2d2552;
+            --accent-purple: #6366f1;
+            --accent-blue: #4f46e5;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--dark-purple) 100%);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        header {
+            padding: 2rem 0 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        header a {
+            color: var(--accent-purple);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+
+        header a:hover {
+            color: var(--text-primary);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 0 2.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-purple) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .contact-box {
+            background: rgba(99, 102, 241, 0.08);
+            border: 1px solid rgba(99, 102, 241, 0.25);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .contact-box p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-box a {
+            color: var(--accent-purple);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .content section {
+            margin-bottom: 2.5rem;
+        }
+
+        .content h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid rgba(99, 102, 241, 0.15);
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-item h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.4rem;
+        }
+
+        .faq-item p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .content ul {
+            list-style: none;
+            padding: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .content ul li {
+            padding: 0.3rem 0 0.3rem 1.2rem;
+            position: relative;
+        }
+
+        .content ul li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: var(--accent-purple);
+        }
+
+        .content a {
+            color: var(--accent-purple);
+            text-decoration: none;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2.5rem 0 3rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(99, 102, 241, 0.1);
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/">← CultivationTimer</a>
+        </header>
+
+        <div class="hero">
+            <h1>Support</h1>
+            <p>Frequently asked questions and contact information.</p>
+        </div>
+
+        <div class="contact-box">
+            <p>Can't find what you're looking for?</p>
+            <a href="mailto:contact@example.com"><!-- TODO: Add contact email -->contact@example.com</a>
+        </div>
+
+        <div class="content">
+
+            <section>
+                <h2>Getting Started</h2>
+
+                <div class="faq-item">
+                    <h3>What is CultivationTimer?</h3>
+                    <p>CultivationTimer is a focused practice timer for meditation, breathwork, and internal cultivation. It supports multi-phase timing (preparation, main practice, and optional extension), saved exercises, and practice sequences.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What's free, and what requires a subscription?</h3>
+                    <p>The core timer is completely free, forever — no time limits, no ads. Free accounts can save up to 3 exercises and 1 practice set. Unlimited saves, full practice history, and daily goals require an Unlimited subscription.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I create an exercise?</h3>
+                    <p>Tap the + button on the Exercises screen. Set a name, configure your timer phases (preparation time, main duration, optional extension), choose sounds, then save. The exercise will appear in your library ready to use.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I build a practice set?</h3>
+                    <p>Go to Practice Sets and tap +. Add exercises in the order you want to practice them. When you run a practice set, the timer moves through each exercise automatically.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Subscriptions & Purchases</h2>
+
+                <div class="faq-item">
+                    <h3>What does Unlimited include?</h3>
+                    <ul>
+                        <li>Unlimited saved exercises (free tier: 3)</li>
+                        <li>Unlimited practice sets (free tier: 1)</li>
+                        <li>Full practice history and statistics</li>
+                        <li>Daily practice goals and streaks</li>
+                    </ul>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What subscription options are available?</h3>
+                    <p>Monthly ($2.99), Yearly ($19.99 — best value), and Lifetime ($79.99 one-time purchase). All options unlock the same Unlimited features.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I restore a purchase?</h3>
+                    <p>Open Settings within the app and tap "Restore Purchases." Your subscription will be verified with the App Store and restored automatically. Make sure you're signed into the same Apple ID used for the original purchase.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I cancel my subscription?</h3>
+                    <p>Subscriptions are managed through your Apple ID. Go to Settings → [Your Name] → Subscriptions on your iPhone, find CultivationTimer, and tap Cancel Subscription. You'll retain access until the end of the current billing period.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Can I get a refund?</h3>
+                    <p>Refunds are handled by Apple. Visit <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a> to request a refund for any App Store purchase.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Troubleshooting</h2>
+
+                <div class="faq-item">
+                    <h3>The timer sounds aren't playing.</h3>
+                    <p>Check that your device is not on silent/ring-off. CultivationTimer respects the system mute switch — if the switch is off (orange dot showing), timer sounds won't play. You can also check the volume setting within the app's Settings screen.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>The screen turns off during practice.</h3>
+                    <p>CultivationTimer keeps the screen awake while the timer is running. If the screen is going dark, check that "Keep Awake During Practice" is enabled in the app's Settings.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>My subscription isn't being recognized.</h3>
+                    <p>Open Settings in the app and tap "Restore Purchases." If the issue continues, make sure you're signed into the correct Apple ID and that the subscription is active at <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a>. If it still doesn't resolve, email us.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>I hit the free exercise limit — what are my options?</h3>
+                    <p>The free tier supports up to 3 saved exercises. You can delete an existing exercise to make room, or upgrade to Unlimited for unlimited saves. Tap the upgrade prompt in the app to see subscription options.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Privacy & Data</h2>
+
+                <div class="faq-item">
+                    <h3>Where is my data stored?</h3>
+                    <p>All practice data — sessions, exercises, settings — is stored locally on your device. Nothing is sent to our servers. See our <a href="/privacy.html">Privacy Policy</a> for full details.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What happens to my data if I delete the app?</h3>
+                    <p>Deleting the app removes all locally stored data. There is currently no backup or sync system (iCloud sync is planned for a future update). Export your data before deleting if you want to keep it.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Contact</h2>
+                <div class="faq-item">
+                    <p>For anything not covered here, reach out directly: <a href="mailto:contact@example.com"><!-- TODO: Add contact email -->contact@example.com</a></p>
+                    <p style="margin-top: 0.5rem;">We aim to respond within 1–2 business days.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            &copy; 2026 CultivationTimer &nbsp;·&nbsp; <a href="/">Home</a> &nbsp;·&nbsp; <a href="/privacy.html">Privacy Policy</a>
+        </footer>
+    </div>
+</body>
+</html>
