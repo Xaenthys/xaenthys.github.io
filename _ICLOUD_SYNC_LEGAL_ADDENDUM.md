@@ -1,7 +1,8 @@
 # iCloud Sync — Legal Language Addendum
 
-When iCloud Sync is implemented in CultivationTimer, add the following sections to the
-Privacy Policy and Terms of Service. This file is not published to the site.
+When iCloud Sync is implemented in Cultivation Timer, add the following sections to the
+Privacy Policy and Terms of Service. The underscore prefix on this file keeps GitHub
+Pages (Jekyll) from publishing it to the site.
 
 ---
 
@@ -25,10 +26,10 @@ Add this section **after** "Information Stored on Your Device":
 ### Update: "Information Stored on Your Device" intro paragraph
 
 Change:
-> This data never leaves your device.
+> This data is stored locally on your device unless you choose to include it in a support message or device backup.
 
 To:
-> This data never leaves your device unless you explicitly enable iCloud Sync (described below).
+> This data is stored locally on your device unless you enable iCloud Sync (described below), choose to include it in a support message, or include it in a device backup.
 
 ### Update: "Third-Party Services" section
 
@@ -49,19 +50,19 @@ Add this bullet:
 ### Update: "International Users" section
 
 Change:
-> Because all data remains on your device, there is no cross-border transfer of personal data by us.
+> Because your practice data remains on your device, there is no cross-border transfer of that data by us.
 
 To:
-> Because all data remains on your device (or in your personal iCloud account if you enable sync), there is no cross-border transfer of personal data by us. If you enable iCloud Sync, Apple's data handling practices, including any international data transfers, are governed by Apple's Privacy Policy and applicable data processing terms.
+> Because your practice data remains on your device (or in your personal iCloud account if you enable sync), there is no cross-border transfer of that data by us. If you enable iCloud Sync, Apple's data handling practices, including any international data transfers, are governed by Apple's Privacy Policy and applicable data processing terms.
 
 ---
 
 ## Terms of Service Additions
 
-### Update: Section 6 "User Content and Data"
+### Update: Section 7 "User Content and Data"
 
 Change:
-> All user-created content is stored locally on your device. We do not have access to your content.
+> User-created content is stored locally on your device. We do not have access to that content unless you choose to include it in a support email.
 
 To:
-> All user-created content is stored locally on your device. If you enable iCloud Sync (a premium feature), your content will also be stored in your personal iCloud account. We do not have access to your content in either case.
+> User-created content is stored locally on your device. If you enable iCloud Sync (a premium feature), your content will also be stored in your personal iCloud account. We do not have access to your content in either case, unless you choose to include it in a support email.
