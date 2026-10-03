@@ -102,7 +102,7 @@
                 <tr>
                     <td>Plus access record</td>
                     <td>Keep Plus available when the App Store can&rsquo;t be reached: the purchased product, Apple&rsquo;s transaction identifiers, and purchase and expiration dates</td>
-                    <td>UserDefaults (on-device), signed with a key kept in this device&rsquo;s Keychain</td>
+                    <td>UserDefaults (on-device), signed with a random key kept in this device&rsquo;s Keychain</td>
                 </tr>
             </tbody>
         </table>
@@ -139,7 +139,7 @@
         <p>All App data is stored locally on your device. You can delete your data at any time by:</p>
         <ul>
             <li>Deleting individual exercises, practice sets, or session records within the App.</li>
-            <li>Uninstalling the App, which removes all locally stored data.</li>
+            <li>Uninstalling the App, which removes its locally stored data. iOS may keep the random signing key for the Plus access record in this device&rsquo;s Keychain after the App is removed; the key contains no information about you, your practice, or your purchases, and the App reuses it if you reinstall.</li>
         </ul>
         <p>Because your practice data is not stored on our servers, there is no practice data for us to retain or delete on our end. Support emails are retained only as long as needed to respond to your request and maintain reasonable support records.</p>
         <p>If you use iCloud Backup or local device backups (via Finder or iTunes), your backup may include App data stored on your device. These backups are governed by Apple&rsquo;s terms and privacy practices, not by us.</p>
@@ -154,7 +154,7 @@
         <p>Depending on your jurisdiction, you may have rights regarding your personal data under laws such as the GDPR (EU/EEA), CCPA/CPRA (California), or other applicable privacy regulations. Because your practice data resides on your device, you can manage most of it directly in the App:</p>
         <ul>
             <li><strong>Right to access:</strong> Your data is on your device and accessible to you at all times through the App.</li>
-            <li><strong>Right to deletion:</strong> You can delete any data at any time within the App or by uninstalling it.</li>
+            <li><strong>Right to deletion:</strong> You can delete your practice data at any time within the App or by uninstalling it.</li>
             <li><strong>Right to portability:</strong> Your practice data resides on your device. iOS device backups may include your App data.</li>
             <li><strong>Right to opt out of tracking:</strong> The App performs no tracking of any kind.</li>
         </ul>
